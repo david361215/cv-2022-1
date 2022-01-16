@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background: #eee;
+  margin: 20px 0;
+}
+article {
+  width: 21cm;
+  min-height: 29.7cm;
+  margin: 0 auto;
+  padding: 1em;
+  background: white;
+  overflow: auto;
+}
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+ol,
+ul {
+  list-style: none;
+  margin-top: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0.3em 0;
+}
+h1 {
+  font-size: 25px;
+}
+p,
+li {
+  color: #666;
+}
+strong {
+  color: #f60;
+  font-weight: normal;
+}
+a {
+  color: #999;
+  text-decoration: none;
+  border-bottom: 1px solid;
+}

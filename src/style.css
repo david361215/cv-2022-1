@@ -1,0 +1,125 @@
+.bio {
+}
+.bio img {
+  float: right;
+}
+
+.projects {
+}
+.projects p {
+  color: #666;
+}
+.projects strong {
+  color: #f60;
+  font-weight: normal;
+}
+.projects ol {
+  list-style-position: inside;
+}
+.projects li {
+  margin-bottom: 24px;
+}
+.projects ol li header {
+  display: flex;
+  justify-content: space-between;
+}
+.projects ol li h3 {
+  display: inline-block;
+}
+
+.openSource {
+}
+.openSource p {
+  color: #666;
+}
+.openSource strong {
+  color: #f60;
+  font-weight: normal;
+}
+.openSource h2 {
+}
+.openSource ul {
+}
+.openSource ul li {
+  margin-bottom: 24px;
+}
+.openSource ul li header {
+  display: flex;
+  justify-content: space-between;
+}
+.openSource ul li h3 {
+}
+.skills {
+  page-break-before: always;
+}
+.skills .wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.skills .wrapper > :first-child {
+  margin-right: 24px;
+}
+.skills .wrapper ul li {
+  line-height: 1.4;
+  margin-bottom: 4px;
+  color: #666;
+}
+.skills .wrapper strong {
+  color: #f60;
+  font-weight: normal;
+}
+#skills {
+  width: 500px;
+  height: 270px;
+}
+.jobs {
+}
+.jobs h2 {
+}
+.jobs ol {
+}
+.jobs header {
+  display: flex;
+  color: #666;
+}
+.jobs header h3 {
+  font-size: 18px;
+  color: #333;
+}
+.jobs header h4 {
+  margin-left: 1em;
+  font-size: 18px;
+}
+.jobs header span {
+  margin-left: auto;
+  font-size: 18px;
+}
+.jobs ol li ul {
+  margin: 12px 0;
+}
+@media (max-width: 500px) {
+  body {
+    margin: 0;
+  }
+  article {
+    width: auto;
+    height: auto;
+  }
+  .bio img {
+    display: none;
+  }
+  .skills .wrapper {
+    flex-direction: column;
+  }
+  #skills {
+    width: auto;
+  }
+  .jobs header {
+    flex-direction: column;
+  }
+  .jobs header h3,
+  .jobs header h4,
+  .jobs header span {
+    margin-left: 0;
+  }
+}
